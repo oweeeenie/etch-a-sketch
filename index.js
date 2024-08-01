@@ -33,8 +33,8 @@ resetButton.addEventListener  ("click" , () => {
             let gridSquare = document.createElement("div");               // i dont fully understand it, but hey, it works and uses multiplication of course!
             gridSquare.style.width = `${squareSize}vw`;                   // oh and we use the same CSS i used before, its just a copy of it so its consistent.
             gridSquare.style.height = `${squareSize}vh`;
-            gridSquare.style.backgroundColor = "black";
-            gridSquare.style.border = "1px solid white";
+            gridSquare.style.backgroundColor = "white";
+            gridSquare.style.border = "1px solid black";
             container.appendChild(gridSquare);
         }
         const gridDivs = document.querySelectorAll("#square-container div");    // this is a copy of the previous code to make the hoverr effect show up again
